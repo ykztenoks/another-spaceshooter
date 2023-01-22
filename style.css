@@ -1,0 +1,33 @@
+#canvas {
+  border: 2px solid white;
+}
+
+body {
+  background-color: black;
+}
+
+.start-screen {
+  /* width: 100vw; */
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.start-screen > img {
+  width: 500px;
+  height: auto;
+}
+
+.canvas-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("./assets/images/spacebg.png");
+  background-repeat: no-repeat;
+  background-size: 1500px;
+  background-position: center;
+
+  display: none;
+}
